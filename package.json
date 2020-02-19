@@ -4,7 +4,8 @@
   "description": "echo server",
   "main": "server.js",
   "scripts": {
-    "test": "mocha --timeout 10000 --exit"
+    "test": "mocha --timeout 10000 --exit",
+    "start": "node server.js"
   },
   "author": "Shawn McCarthy",
   "license": "ISC",
@@ -23,5 +24,16 @@
     "chai-http": "^4.2.0",
     "sinon": "^7.2.2",
     "sinon-mongoose": "^2.2.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachbowers/CSCI3916-HW2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zachbowers/CSCI3916-HW2/issues"
+  },
+  "homepage": "https://github.com/zachbowers/CSCI3916-HW2#readme"
 }
