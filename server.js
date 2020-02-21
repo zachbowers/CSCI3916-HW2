@@ -91,6 +91,21 @@ router.post('/signin', function(req, res) {
         };
 });
 
+router.get('/movies', function(req, res)
+    {
+        var movie = db.find(req.body);
+        if(!movie){
+
+        }
+    }
+);
+
+router.post('/movies', function(req, res)
+    {
+
+    }
+);
+
 app.use('/', router);
 app.listen(process.env.PORT || 8080);
 
