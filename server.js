@@ -93,18 +93,32 @@ router.post('/signin', function(req, res) {
 
 router.get('/movies', function(req, res)
     {
-        var movie = db.find(req.body);
-        if(!movie){
-
-        }
+        res = res.status(200);
+        res.send(req.body);
     }
 );
 
 router.post('/movies', function(req, res)
     {
-
+        res = res.status(200);
+        res.send(req.body);
     }
 );
+
+router.put('/movies', function(req, res)
+    {
+        res = res.status(200);
+        res.send(req.body);
+    }
+);
+
+router.delete('/movies', function(req, res)
+{
+    res = res.status(200);
+    res.send(req.body);
+
+});
+
 
 app.use('/', router);
 app.listen(process.env.PORT || 8080);

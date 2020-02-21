@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="Sixth Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
   </component>
   <component name="ProjectId" id="1Y7uILfZgeC7NfIVZxf55tU11af" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -85,12 +80,24 @@
       <workItem from="1546288520616" duration="6314000" />
       <workItem from="1550101915200" duration="605000" />
       <workItem from="1550105398207" duration="557000" />
-      <workItem from="1582305877338" duration="294000" />
+      <workItem from="1582305877338" duration="3375000" />
     </task>
+    <task id="LOCAL-00001" summary="Sixth Commit">
+      <created>1582306194330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582306194330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sixth Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sixth Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582305920198">
@@ -101,31 +108,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="582" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582306193735" />
-    <state width="1899" height="397" key="GridCell.Tab.0.bottom" timestamp="1582306159086">
+    <state width="1899" height="81" key="GridCell.Tab.0.bottom" timestamp="1582313301125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="397" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582306159086" />
-    <state width="1899" height="397" key="GridCell.Tab.0.center" timestamp="1582306159086">
+    <state width="1899" height="81" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582313301125" />
+    <state width="1899" height="81" key="GridCell.Tab.0.center" timestamp="1582313301125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="397" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582306159086" />
-    <state width="1899" height="397" key="GridCell.Tab.0.left" timestamp="1582306159086">
+    <state width="1899" height="81" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582313301125" />
+    <state width="1899" height="81" key="GridCell.Tab.0.left" timestamp="1582313301125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="397" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582306159086" />
-    <state width="1899" height="397" key="GridCell.Tab.0.right" timestamp="1582306159086">
+    <state width="1899" height="81" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582313301125" />
+    <state width="1899" height="81" key="GridCell.Tab.0.right" timestamp="1582313301125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="397" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582306159086" />
+    <state width="1899" height="81" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582313301125" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/server.js</url>
-          <line>49</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/auth.js</url>
           <line>7</line>
