@@ -6,8 +6,10 @@ var authController = require('./auth');
 var authJwtController = require('./auth_jwt');
 db = require('./db')(); //global hack
 var jwt = require('jsonwebtoken');
+var cors = require('cors');
 
 var app = express();
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -15,10 +17,12 @@ app.use(passport.initialize());
 
 var router = express.Router();
 
-function getJSONObject(req) {
+function getJSONObject(req, message, status) {
     var json = {
+        status: status,
+        message: message,
         headers : "No Headers",
-        key: process.env.UNIQUE_KEY,
+        env: process.env.UNIQUE_KEY,
         body : "No Body"
     };
 
@@ -91,33 +95,57 @@ router.post('/signin', function(req, res) {
         };
 });
 
-router.get('/movies', function(req, res)
-    {
-        res = res.status(200);
-        res.send(req.body);
-    }
-);
+router.route('/movies')
+    .get(authJwtController.isAuthenticated, function (req, res) {
+            console.log(req.body);
+            res = res.status(200);
+            if (req.get('Content-Type')) {
+                console.log("Content-Type: " + req.get('Content-Type'));
+                res = res.type(req.get('Content-Type'));
+            }
+            res.json(getJSONObject(req, 'GET /movies', '200'));
+        }
 
-router.post('/movies', function(req, res)
-    {
-        res = res.status(200);
-        res.send(req.body);
-    }
-);
+    );
 
-router.put('/movies', function(req, res)
-    {
-        res = res.status(200);
-        res.send(req.body);
-    }
-);
+router.route('/movies')
+    .post(authJwtController.isAuthenticated, function (req, res) {
+            console.log(req.body);
+            res = res.status(200);
+            if (req.get('Content-Type')) {
+                console.log("Content-Type: " + req.get('Content-Type'));
+                res = res.type(req.get('Content-Type'));
+            }
+            res.send(req.body);
+        }
+    );
 
-router.delete('/movies', function(req, res)
-{
-    res = res.status(200);
-    res.send(req.body);
+router.route('/movies')
+    .put(authJwtController.isAuthenticated, function (req, res) {
+            console.log(req.body);
+            res = res.status(200);
+            if (req.get('Content-Type')) {
+                console.log("Content-Type: " + req.get('Content-Type'));
+                res = res.type(req.get('Content-Type'));
+            }
+            res.send(req.body);
+        }
+    );
 
-});
+router.route('/movies')
+    .delete(authJwtController.isAuthenticated, function (req, res) {
+            console.log(req.body);
+            res = res.status(200);
+            if (req.get('Content-Type')) {
+                console.log("Content-Type: " + req.get('Content-Type'));
+                res = res.type(req.get('Content-Type'));
+            }
+            res.send(req.body);
+        }
+    );
+
+
+
 
 
 app.use('/', router);
