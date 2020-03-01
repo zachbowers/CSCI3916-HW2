@@ -105,7 +105,6 @@ router.route('/movies')
             }
             res.json(getJSONObject(req, 'GET /movies', '200'));
         }
-
     );
 
 router.route('/movies')
