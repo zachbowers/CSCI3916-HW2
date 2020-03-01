@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="Sixth Commit" />
+    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="Sixth Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +87,7 @@
       <workItem from="1582577132853" duration="5683000" />
       <workItem from="1582749342063" duration="1778000" />
       <workItem from="1583000014381" duration="174000" />
+      <workItem from="1583081705168" duration="246000" />
     </task>
     <task id="LOCAL-00001" summary="Sixth Commit">
       <created>1582306194330</created>
@@ -112,43 +115,43 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="582" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582306193735" />
-    <state width="1406" height="200" key="GridCell.Tab.0.bottom" timestamp="1582760869431">
+    <state width="1406" height="200" key="GridCell.Tab.0.bottom" timestamp="1583083488321">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1899" height="81" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582313301125" />
     <state width="1406" height="201" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1582593571624" />
     <state width="1406" height="201" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1582740336022" />
-    <state width="1406" height="200" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1582760869431" />
+    <state width="1406" height="200" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1583083488321" />
     <state width="1406" height="200" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1582759975122" />
     <state width="1379" height="201" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1582481818706" />
     <state width="1379" height="201" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1582579014593" />
-    <state width="1406" height="200" key="GridCell.Tab.0.center" timestamp="1582760869430">
+    <state width="1406" height="200" key="GridCell.Tab.0.center" timestamp="1583083488320">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1899" height="81" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582313301125" />
     <state width="1406" height="201" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1582593571623" />
     <state width="1406" height="201" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1582740336022" />
-    <state width="1406" height="200" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1582760869430" />
+    <state width="1406" height="200" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1583083488320" />
     <state width="1406" height="200" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1582759975121" />
     <state width="1379" height="201" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1582481818706" />
     <state width="1379" height="201" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1582579014592" />
-    <state width="1406" height="200" key="GridCell.Tab.0.left" timestamp="1582760869429">
+    <state width="1406" height="200" key="GridCell.Tab.0.left" timestamp="1583083488320">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1899" height="81" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582313301125" />
     <state width="1406" height="201" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1582593571623" />
     <state width="1406" height="201" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1582740336022" />
-    <state width="1406" height="200" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1582760869429" />
+    <state width="1406" height="200" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1583083488320" />
     <state width="1406" height="200" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1582759975120" />
     <state width="1379" height="201" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1582481818705" />
     <state width="1379" height="201" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1582579014592" />
-    <state width="1406" height="200" key="GridCell.Tab.0.right" timestamp="1582760869430">
+    <state width="1406" height="200" key="GridCell.Tab.0.right" timestamp="1583083488321">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="1899" height="81" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582313301125" />
     <state width="1406" height="201" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1582593571624" />
     <state width="1406" height="201" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1582740336022" />
-    <state width="1406" height="200" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1582760869430" />
+    <state width="1406" height="200" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1583083488321" />
     <state width="1406" height="200" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1582759975121" />
     <state width="1379" height="201" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1582481818706" />
     <state width="1379" height="201" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1582579014593" />
