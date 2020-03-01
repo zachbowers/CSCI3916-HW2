@@ -111,9 +111,9 @@ router.route('/movies')
     .post(authJwtController.isAuthenticated, function (req, res) {
             console.log(req.body);
             res = res.status(200);
-            if (req.post('Content-Type')) {
-                console.log("Content-Type: " + req.post('Content-Type'));
-                res = res.type(req.post('Content-Type'));
+            if (req.get('Content-Type')) {
+                console.log("Content-Type: " + req.get('Content-Type'));
+                res = res.type(req.get('Content-Type'));
             }
         res.json(getJSONObject(req, 'POST /movies', '200'));
         }
@@ -123,9 +123,9 @@ router.route('/movies')
     .put(authJwtController.isAuthenticated, function (req, res) {
             console.log(req.body);
             res = res.status(200);
-            if (req.put('Content-Type')) {
-                console.log("Content-Type: " + req.put('Content-Type'));
-                res = res.type(req.put('Content-Type'));
+            if (req.get('Content-Type')) {
+                console.log("Content-Type: " + req.get('Content-Type'));
+                res = res.type(req.get('Content-Type'));
             }
         res.json(getJSONObject(req, 'PUT /movies', '200'));
         }
@@ -135,9 +135,9 @@ router.route('/movies')
     .delete(authJwtController.isAuthenticated, function (req, res) {
             console.log(req.body);
             res = res.status(200);
-            if (req.delete('Content-Type')) {
-                console.log("Content-Type: " + req.delete('Content-Type'));
-                res = res.type(req.delete('Content-Type'));
+            if (req.get('Content-Type')) {
+                console.log("Content-Type: " + req.get('Content-Type'));
+                res = res.type(req.get('Content-Type'));
             }
         res.json(getJSONObject(req, 'DELETE /movies', '200'));
         }
